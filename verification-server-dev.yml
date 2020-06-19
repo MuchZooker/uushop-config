@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.29.6.56:9001/eureka/
+spring:
+  application:
+    name: verification-serve
+
+server:
+  port: 9101
