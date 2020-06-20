@@ -12,10 +12,13 @@ spring:
        enabled: false
 zuul:
   routes:
-    api-a:
-      path: /order/**
+    order:
+      path: /api/**
       service-id: order-server
-    api-b:
-      path: /product/**
+    product:
+      path: /api/**
       service-id: product-server
+    verification:
+      path: /api/**
+      service-id: verification-server
 
