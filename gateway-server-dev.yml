@@ -18,6 +18,3 @@ zuul:
     api-b:
       path: /product/**
       server-id: product-server
-ribbon:
-  eureka:
-    enable: false
