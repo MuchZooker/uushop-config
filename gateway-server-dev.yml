@@ -25,6 +25,6 @@ zuul:
       path: /api/procut/**
       service-id: product-server
     verification:
-      path: /api/procut/**
+      path: /api/verification/**
       service-id: verification-server
 
