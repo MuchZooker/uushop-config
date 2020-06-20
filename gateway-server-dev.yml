@@ -18,13 +18,13 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 60000
   routes:
-    api-a:
-      path: /api/**
+    order:
+      path: /api/order/**
       service-id: order-server
-    api-b:
-      path: /api/**
+    product:
+      path: /api/procut/**
       service-id: product-server
-    api-c:
-      path: /api/**
+    verification:
+      path: /api/procut/**
       service-id: verification-server
 
