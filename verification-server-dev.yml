@@ -9,6 +9,9 @@ spring:
         enabled: false
     cache:
        enabled: false
+ribbon:
+  eureka:
+    enable: false
   redis:
     host: 172.29.6.56
     port: 6379
