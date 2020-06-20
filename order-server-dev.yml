@@ -9,3 +9,6 @@ spring:
         enabled: false
     cache:
        enabled: false
+ribbon:
+  eureka:
+    enable: false
