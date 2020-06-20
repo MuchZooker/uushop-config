@@ -9,3 +9,6 @@ spring:
         enabled: false
     cache:
        enabled: false
+  reids:
+    host: 172.29.6.56
+    port: 6379
