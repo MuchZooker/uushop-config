@@ -14,7 +14,8 @@ zuul:
   routes:
     api-a:
       path: /order/**
-      server-id: order-server
+      service-id: order-server
     api-b:
       path: /product/**
-      server-id: product-server
+      service-id: product-server
+
