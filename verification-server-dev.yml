@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://172.29.6.56:9001/eureka/
+      defaultZone: http://172.29.6.56:9001/eureka/,http://172.16.7.216:9001/eureka/
 spring:
   cloud:
     loadbalancer:
@@ -10,5 +10,5 @@ spring:
     cache:
        enabled: false
 reids:
-    host: 172.29.6.56
-    port: 6379
+  host: 172.29.6.56
+  port: 6379
