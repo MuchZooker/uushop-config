@@ -12,3 +12,5 @@ spring:
 ribbon:
   eureka:
     enable: false
+mybatis:
+  mapper-locations: classpath*:/mapper/*.xml
