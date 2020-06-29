@@ -19,12 +19,12 @@ zuul:
     socket-timeout-millis: 60000
   routes:
     order:
-      path: /api/order/**
+      path: /api/order-server/**
       service-id: order-server
     product:
-      path: /api/procut/**
+      path: /api/procut-server/**
       service-id: product-server
     verification:
-      path: /api/verification/**
+      path: /api/verification-server/**
       service-id: verification-server
 
